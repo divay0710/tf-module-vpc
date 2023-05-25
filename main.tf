@@ -55,3 +55,7 @@ resource "aws_route" "igw" {
 output "ngw" {
   value = aws_nat_gateway.ngw
 }
+
+ouptut "subnets" {
+  value = module.subnets
+}
