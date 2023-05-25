@@ -56,6 +56,6 @@ output "ngw" {
   value = aws_nat_gateway.ngw
 }
 
-ouptut "subnets" {
+output "subnets" {
   value = module.subnets
 }
